@@ -4,8 +4,4 @@ module(
 )
 
 bazel_dep(name = "rules_cc", version = "0.0.17")
-bazel_dep(name = "eabase")
-local_path_override(
-    module_name = "eabase",
-    path = "../eabase",
-)
+bazel_dep(name = "eabase", version = "2024-08-17")
