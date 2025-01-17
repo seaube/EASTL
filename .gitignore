@@ -48,3 +48,7 @@ Testing/*
 .buckconfig.local
 BUCKAROO_DEPS
 .vscode/settings.json
+
+# Bazel
+bazel-*
+*.bazel.lock
